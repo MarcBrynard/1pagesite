@@ -1,0 +1,114 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.hero{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+.hero{
+	font-family: 'Bubbler One', sans-serif;
+	position: center;
+	margin-left: 300px;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://static.pexels.com/photos/419735/pexels-photo-419735.jpeg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+h1{
+	color: white;
+	text-shadow: -2px 2px 2px #999;
+
+}
+
+.main-nav{
+	list-style: none;
+	float: right;
+	margin-top: 60px; 
+	font-family: 'Bubbler One', sans-serif;
+
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%
+	font-weight:bold;
+}
+
+.main-nav li a:hover{
+	color: #87CEFA;
+	border-bottom: 2px solid #87CEFA;
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+
+}
+
+.logo img{
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+
+.features{
+	margin-top: 70px;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 150%;
+}
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #87CEFA;
+	display: block;
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.info{
+	font-family: 'Raleway', sans-serif;
+	margin-top: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.testimonials{
+	margin-top: 70px;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 150%
+}
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #87CEFA;
+	display: block;
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+
